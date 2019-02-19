@@ -1,0 +1,47 @@
+{
+  "name": "LSL Easy Prod",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "MPCI LSL First Pass - Live Prod Capture",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl7f0GEpBBHyknq2+yalp7biGOp/xNS/MGSEbPrka6AgpXfjApw8wrLnVvrRsCD+DxFXGSA/1AqMwj3UZ5480Rv9QPgDJ7r0PZFYtPB26FI31z0HlETmx3OIh7QQTkgQd+btPDMqQXoqH7MJktZOaxvjGDWB4cq242wKcdXl/OJMsN9QC4sHDEVJXKyWBlPGbdBCEnPJy8SD7AHdIquTcQwZErcJhuxK9axBSd278AKapIJvIRTcqIyIjdBWWY4LSs+WhAZulFHu7GujCDY0G7IHRU9ICnFRVEYyZFPXgqvMTsNtDahGB/06VgYHtYXIlbawrYSLqvpfeBBcfEH2VQwIDAQAB",
+  
+
+  "icons": { 
+    "16": "icon_128.png",
+    "48": "icon_128.png",
+   "128": "icon_128.png" },
+
+"content_scripts": [
+  {
+    "matches": [
+      "file:///C:/Users/sudarshan/Desktop/ext-chrome/Ext-LSL/lsl-example.html",
+      "file:///C:/Users/sudarshan/Desktop/Ext-LSL/lsl-example.html",
+      "file:///usr/local/google/home/skoyalkar/Desktop/Ext-LSL/lsl-example.html",
+      "https://script.google.com/a/google.com/macros/s/AKfycbz8fpZMrcueC7hiMowXrysRR8DNvHMmS3rjcEMqbPXR_uSzLUs/exec?",
+      "file:///usr/local/google/home/skoyalkar/Desktop/LSL/Ext-LSL/lsl-example.html",
+      "https://chauffeur-dashboard.corp.google.com/triage/mpci_first_pass/details/-1650640875462536870?filters=%7B%22startDate%22:%22__EQ__2018-11-18__%22,%22test_timestamp%22:%22__RE__1550287799837226__%22,%22metric%22:%22__RE__likely__%22,%22prob_ais3_plus%22:%22__GE__0.05__%22,%22done_first_pass%22:%22___Triaged___%22,%22shadow_distance_offset%22:%22__BW__-30;30__%22,%22collision_likelihood_score%22:%22__GE__1.1__%22%7D&limit=25",
+      "https://chauffeur-dashboard.corp.google.com/triage/mpci_first_pass/details/*",
+      "https://chauffeur-dashboard.corp.google.com/triage/mpci_first_pass/details/*/*"
+     
+    ],
+    "js": ["js/jquery-3.3.1.min.js", "js/content-script.js"],
+    "run_at": "document_end",
+    "all_frames": true
+  }
+],
+
+  "browser_action": {
+    "default_title": "LSL"
+  },
+
+  "permissions": [
+    "activeTab", 
+    "tabs",
+    "http://*/*", 
+    "https://*/*",
+    "https://script.google.com/a/google.com/macros/s/AKfycbz8fpZMrcueC7hiMowXrysRR8DNvHMmS3rjcEMqbPXR_uSzLUs/*",
+    "file:///usr/local/google/home/skoyalkar/Desktop/LSL/Ext-LSL/lsl-example.html",
+    "file:///usr/local/google/home/skoyalkar/Desktop/Ext-LSL/lsl-example.html"
+
+     ]
+}
