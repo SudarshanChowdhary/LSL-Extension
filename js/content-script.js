@@ -1,5 +1,7 @@
 setTimeout(function () {
   $(document).ready(function () {
+    alert("welcome");
+    console.log("on load page");
     var table = $("mat-card.table.mat-card.ng-star-inserted");
     var renderCells = $(table[1]).find("render-cell");
     var lslData = {
@@ -7,7 +9,7 @@ setTimeout(function () {
       falsePositiveReason: $("#mat-input-1").prop("title"),
       triageResult: $("#mat-input-2").prop("title"),
       run: $(renderCells[0]).find("a").text(),
-      done: false,
+      done: true,
       WVUnavailable: false,
       runOffset: $(renderCells[1]).find("text span").text(),
       eventCategory: $(renderCells[5]).find("text span").text(),
@@ -66,7 +68,8 @@ setTimeout(function () {
       console.log(queryString);
 
       $.get("https://script.google.com/a/google.com/macros/s/AKfycbz8fpZMrcueC7hiMowXrysRR8DNvHMmS3rjcEMqbPXR_uSzLUs/exec?" + queryString, function (result) {
-        alert("success")
+     //   alert("success")
+     console.log("success");
       });
 
     })
