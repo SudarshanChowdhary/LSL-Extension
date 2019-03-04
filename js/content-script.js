@@ -1,6 +1,6 @@
 setTimeout(function () {
   $(document).ready(function () {
-    alert("welcome");
+   // alert("welcome");
     console.log("on load page");
     var table = $("mat-card.table.mat-card.ng-star-inserted");
     var renderCells = $(table[1]).find("render-cell");
@@ -20,15 +20,15 @@ setTimeout(function () {
       url: window.location.href
     }
 
-    $("#mat-input-0").on('blur', function () {
+    $("#mat-input-0").on('keyup keypress blur change load', function () {
       lslData.assigne = $("#mat-input-0").prop("title");
     })
 
-    $("#mat-input-1").on('blur', function () {
+    $("#mat-input-1").on('keyup keypress blur change load', function () {
       lslData.falsePositiveReason = $("#mat-input-1").prop("title");
     })
 
-    $("#mat-input-2").on('blur', function () {
+    $("#mat-input-2").on('keyup keypress blur change load', function () {
       lslData.triageResult = $("#mat-input-2").prop("title");
     })
 
@@ -41,7 +41,7 @@ setTimeout(function () {
       lslData.WVUnavailable = true;
     })
 
-    $(".nav-button .right-column .mat-raised-button.mat-primary").on('click', function () {
+    $(".nav-button .right-column .mat-raised-button.mat-primary, #mat-checkbox-1-input").on('click', function () {
 
       lslData.timestamp = new Date().toLocaleString();
       console.log(lslData.timestamp);
