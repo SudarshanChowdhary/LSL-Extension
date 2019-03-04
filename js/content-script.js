@@ -20,15 +20,17 @@ setTimeout(function () {
       url: window.location.href
     }
 
-    $("#mat-input-0").on('keyup keypress blur change load', function () {
+    $("#mat-input-0").on('blur', function () {
       lslData.assigne = $("#mat-input-0").prop("title");
     })
 
-    $("#mat-input-1").on('keyup keypress blur change load', function () {
+    $("#mat-input-1").on('change', function () {
       lslData.falsePositiveReason = $("#mat-input-1").prop("title");
+      lslData.triageResult = $("#mat-input-2").prop("title");
     })
 
-    $("#mat-input-2").on('keyup keypress blur change load', function () {
+    $("#mat-input-2").on('change', function () {
+      lslData.falsePositiveReason = $("#mat-input-1").prop("title");
       lslData.triageResult = $("#mat-input-2").prop("title");
     })
 

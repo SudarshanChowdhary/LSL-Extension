@@ -18,7 +18,7 @@
       "https://chauffeur-dashboard.corp.google.com/triage/mpci_first_pass/details/5353810082385431877?filters=%7B%22startDate%22:%22__EQ__2016-08-01__%22,%22test_timestamp%22:%22__RE__1550349852421704__%22,%22metric%22:%22___near%20collision%20(0.10m)___%22,%22triage_result_first_pass%22:%22___Unclassified___%22,%22shadow_distance_offset%22:%22__BW__-30;30__%22,%22endDate%22:%22__RE__2018-02-01__%22,%22is_required_for_rates%22:%22___Required%20for%20Rates___%22%7D&limit=25",
       "https://chauffeur-dashboard.corp.google.com/triage/mpci_first_pass/details/7624693411037480415?filters=%7B%22startDate%22:%22__EQ__2016-08-01__%22,%22test_timestamp%22:%22__RE__1550349852421704__%22,%22metric%22:%22___near%20collision%20(0.10m)___%22,%22triage_result_first_pass%22:%22___Unclassified___%22,%22shadow_distance_offset%22:%22__BW__-30;30__%22,%22endDate%22:%22__RE__2018-02-01__%22,%22is_required_for_rates%22:%22___Required%20for%20Rates___%22%7D&limit=25",
       "file:///C:/Users/sudarshan/Desktop/ext-chrome/Ext-LSL/lsl-example.html",
-      "file:///C:/Users/sudarshan/Desktop/Ext-LSL/lsl-example.html",
+      "file:///C:/Users/sudarshan/Desktop/LSL-extension/lsl-example.html",
       "file:///usr/local/google/home/skoyalkar/Desktop/Ext-LSL/lsl-example.html",
       "https://script.google.com/a/google.com/macros/s/AKfycbz8fpZMrcueC7hiMowXrysRR8DNvHMmS3rjcEMqbPXR_uSzLUs/exec?",
       "file:///usr/local/google/home/skoyalkar/Desktop/LSL/Ext-LSL/lsl-example.html",
@@ -46,7 +46,7 @@
     "https://chauffeur-dashboard.corp.google.com/triage/mpci_first_pass/details/7624693411037480415?filters=%7B%22startDate%22:%22__EQ__2016-08-01__%22,%22test_timestamp%22:%22__RE__1550349852421704__%22,%22metric%22:%22___near%20collision%20(0.10m)___%22,%22triage_result_first_pass%22:%22___Unclassified___%22,%22shadow_distance_offset%22:%22__BW__-30;30__%22,%22endDate%22:%22__RE__2018-02-01__%22,%22is_required_for_rates%22:%22___Required%20for%20Rates___%22%7D&limit=25",
     "https://script.google.com/a/google.com/macros/s/AKfycbz8fpZMrcueC7hiMowXrysRR8DNvHMmS3rjcEMqbPXR_uSzLUs/*",
     "file:///usr/local/google/home/skoyalkar/Desktop/LSL/Ext-LSL/lsl-example.html",
-    "file:///usr/local/google/home/skoyalkar/Desktop/Ext-LSL/lsl-example.html"
-
+    "file:///usr/local/google/home/skoyalkar/Desktop/Ext-LSL/lsl-example.html",
+    "file:///C:/Users/sudarshan/Desktop/LSL-extension/lsl-example.html"
      ]
 }
